@@ -1,0 +1,108 @@
+html,body{	
+	margin:0; 
+    padding:0; 
+    font-family: arial, tahoma, helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+body{
+	background: url('./slike/Ozadje.jpg') 
+}
+#GlavniOkvir{
+	margin: 0 auto 0 auto;
+	min-height: 530px;
+	width: 950px;
+}
+#ZgornjaPasica{
+	width: 950px; 
+	height: 100px;
+	display: flex;
+	flex-wrap:nowrap;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: flex-end;
+	background-color: white;
+}
+.logo{
+	height: 80px;
+	width: 80px
+	padding-bottom: 20px;
+	margin-left: 50px;
+}
+#Navigacija{
+	background: transparent url('./slike/Navigacija.jpg') no-repeat center top;
+	background-size: cover;
+	background-position: center bottom; 
+	height: 30px;
+	width: 950px;
+}
+#Navigacija ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	justify-content: flex-start;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	height: 30px;
+	margin: 0px; 
+	padding-right: 100px;
+	padding-left: 100px;
+}
+#Navigacija a:link, 
+#Navigacija a:visited, 
+#Navigacija a:hover,
+#Navigacija a:active{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	border-bottom: 0px;
+	padding: 6px 10px;
+	transition: background-color .90s ease;
+}
+#Navigacija a:hover,
+#Navigacija a:active{
+	background-color: rgba(71,217,220,.30);
+	transition: background-color .75s ease;
+}
+#Vsebina{
+	min-height: 350px;
+	width: 950px; 
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+}
+#Clanek{
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 10px 10px 10px 0;
+	min-height: 350px;
+	width: 600px;
+	font-size: 13px;
+}
+#Sorodno{
+	margin-top: 10px;
+	height: 350px;
+	width: 300px;
+	display: flex;
+}
+#Noga{
+	background-image: linear-gradient(to bottom, darkturquoise 0, darkturquoise 10%, darkturquoise 10%, darkturquoise 15%, lightblue 15%, lightblue 100%);
+	background-repeat:repeat-x;
+	color: white;
+	padding: 18px 0 0 20px;
+	margin-bottom: 45px;
+	box-sizing:border-box;  
+	height: 50px;
+	width: 950px;
+}
+#Noga a{
+	color: white;
+	text-decoration: none;
+}
+#Noga a:hover{
+	text-decoration: underline;
+}
